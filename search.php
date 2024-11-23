@@ -15,7 +15,7 @@ include('includes/config.php');
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Tin Nhanh | Search  Page</title>
+    <title>Tin Nhanh | Trang tìm kiếm</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

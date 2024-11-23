@@ -45,13 +45,6 @@ include('includes/config.php');
         if($_GET['catid']!=''){
 $_SESSION['catid']=intval($_GET['catid']);
 }
-             
-
-
-
-
-
-
      if (isset($_GET['pageno'])) {
             $pageno = $_GET['pageno'];
         } else {
@@ -59,8 +52,6 @@ $_SESSION['catid']=intval($_GET['catid']);
         }
         $no_of_records_per_page = 8;
         $offset = ($pageno-1) * $no_of_records_per_page;
-
-
         $total_pages_sql = "SELECT COUNT(*) FROM tblposts";
         $result = mysqli_query($con,$total_pages_sql);
         $total_rows = mysqli_fetch_array($result)[0];
